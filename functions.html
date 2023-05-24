@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>geetings</title>
+        <script src="learnjs.js" type="text/Javascript" ></script>
+    </head>
+    <body>
+        <script>
+            //creating functions
+            function greetings(name){
+                document.write("creating function"+"<br>"+"functions makes coding easier"+"<br>"+name+"<br>")
+            }
+            //calling a funtion
+            greetings("you should try them sometime")
+            //functions can be called more than once hence are re-usable
+            
+        </script>
+        <!--calling functions in a button
+        when the button is clilcked the function is displayed-->
+        <p>Creating Functions</p>
+        <form>
+            <input type="button" value="click me" onclick="greetings(name)"
+        </form>
+        <!--a function that calculates the sum of two numbers-->
+        <script>
+        function sum(a,b){
+            document.write("the sum of the numbers is"+(a+b)+"<br>")
+        }
+        sum(1,7)
+        sum(5,9)
+        sum(4,2)
+        
+        </script>
+    </body>
+</html>
