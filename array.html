@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var students=["Kevin","John","Mark","Dan","Steve"]
+            var marks=[30,90,70,50]
+            students.shift();
+            document.writeln(students+"<br>")
+
+            //displaying the length of the array
+            document.writeln(students.length+"<br>")
+            document.writeln(marks+"<br>")
+            document.write(marks[1]+"<br>")
+            //adding and element to an array
+            students.push("Gavin")
+            document.writeln(students+"<br>")
+            //removing an item from the array
+            students.pop("Kevin")
+            document.writeln(students+"<br>")
+            //checking the index of an element in an array
+            document.write(students.indexOf("Mark"))
+
+            //to loop over the elemnts of an array
+            for (i=0;i<students.length;i++){
+                document.write(students[i]+"<br>")
+            }
+            document.write(students+"<br>")
+           //shift..removes the first element of an array
+           students.shift();
+           document.writeln(students+"<br>") 
+           //unshift...adds elements at the start of an array
+           students.unshift("Lewis","Joseph")
+           document.writeln(students+"<br>")
+           //slice..give a slice of the array that is required
+           var topstudents=students.slice(1, 3)
+           document.write(topstudents)
+
+
+        
+           
+           
+        </script>
+
+    </body>
+</html>
