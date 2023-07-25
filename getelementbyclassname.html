@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <P>change the color of all elements with class name "basic"</P>
+        <div>
+        <div class="basic">this is the first div with class "basic"</div>
+        <div class="basic">this is the second div with class "basic"</div>
+        <div class="basic">this is the third div with class "basic"</div>
+
+            </div>
+            <script>
+                var items=document.getElementsByClassName("basic");
+                for (let i=0;i<items.length;i++){
+                    items[i].style.backgroundColor="yellow";
+                }
+            </script>
+
+    </body>
+</html>   
